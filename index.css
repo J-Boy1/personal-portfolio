@@ -1,0 +1,144 @@
+/*
+
+/* importing font family-poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+
+
+ /* reset browser default styles */
+ * { Margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: "Poppins",Comic Sans MS;
+}
+
+/* HEADER SECTION */
+
+header{ 
+Background-image: url(https://images.pexels.com/photos/356040/pexels-photo-356040.jpeg?cs=srgb&dl=pexels-pixabay-356040.jpg&fm=jpg);
+
+background-size: cover;
+background-position: 50%;
+height: 60vh;
+
+}
+
+.header-overlay{
+     background-color: rgba(0,0,0,0.3);
+     position: absolute;
+     top: 0;
+     height: 80vh
+     width: 100%
+}
+
+.header-wrapper{
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 4rem;
+}
+
+/* LOGO*/
+.logo{
+  font-size: 30px;
+  font-weight: bold;
+  color: red;
+  margin-left: 10px;
+  z-index: 1;
+}
+/* NAVIGATION SECTION */ 
+.nav-link{
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none; /* remove underline */
+  transition: 0.5s;
+  padding: 10px;
+  margin: 10px;
+}
+
+
+.nav-link.active{
+  color: red;
+}
+.Main-section{
+  position: relative;
+ z-index: 1;
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-top: 100px;
+}
+.profile-image{
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+}
+.Fullname{
+  color: skyblue;
+  font-size: 30px;
+  text-transform: uppercase;
+  margin: 30px 0px;
+}
+.brief{ 
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* icon */
+.main-media-wrapper svg{
+  width: 40px;
+  height: 40px;
+  border: 1px solid white;
+  border-radius: 100%;
+  padding: 2px;
+  margin: 20px;
+  transition: 0.5s;
+}
+.svg1{
+  fill: blue;
+  background-color: white;
+}
+.svg2{
+  fill: blue;
+  background-color: white;
+}
+.svg3{
+  fill: blue;
+  background-color: white;
+}
+.svg4{
+  fill: white;
+  background-color: black;}
+
+
+/* Buttons */
+
+.btn {
+  background-color: red;
+  color: white;
+  font-size: 22px
+  font-weight: bold;
+  text-decoration: none;
+  padding: 10px  14px;
+  border-radius: 25px;
+  border: none;
+  margin: 15px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+.btn:hover{
+  opacity: 0.8;}
+  
+  .download-btn{
+    background-color: white;
+    color: red;
+  }
+  .download-btn:hover{
+    opacity: 0.8;
+    transition: 0.5s;
+  }
+}
